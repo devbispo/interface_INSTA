@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;  
+}
+body{
+    width: 140px;
+    min-height:100vh ;
+    background-color: rgb(243, 243, 243 );
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+display: flex;
+align-items: center;
+justify-content: start;
+width: 60%;
+height:100vh ;
+}
+
+.group1 img {
+max-width: 300px;
+ }
+ 
+ .group img{
+     max-width: 200px;
+ }
+
+ .continue-instagram{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-direction: column;
+     width: 50%;
+     min-height: 20rem;
+ }
+
+.group {
+    border: 2px solid lightgray;
+    margin: 50px;
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.login-senha button{
+    background-color: rgba(9, 9, 209, 0.788);
+    color: antiquewhite;
+    padding: 6px;
+    border-radius: 4px;
+}
